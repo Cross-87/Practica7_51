@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+header {
+    color: purple;
+}
+#info {
+    color: rgb(4, 105, 105);
+}
+.titulo {
+    border: 1px solid black;
+    box-shadow: 10px 5px 25px rgb(141, 141, 252);
+}
+h3.titulo {
+    color: blue;
+}
+p[lang="es-mx"] {
+    background-color: skyblue;
+}
+a[href$="mx"] {
+    background-color: skyblue;
+}
+a[href^="ftp"] {
+    background-color: white;
+}
+a[href*="pagina"] {
+    font-size: 45px;
+}
+[class~="round"] {
+    border-radius: 10px;
+}
+main, aside {
+    padding: 0 20px;
+    margin: 20px 0;
+}
+a, .titulo, [lang] {
+    color: blueviolet;
+}
+aside > h2 + p { /* hermanos adyascentes h2 junto a p e hijos directos h2 de aside */
+    color: rgb(42, 151, 224);
+}
+aside article > p { /* hijos directos p de article que sean descendientes de aside */
+    color:black
+}
